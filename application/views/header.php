@@ -3,12 +3,9 @@
 		<title>Home</title>
 		<link rel="Stylesheet" href="assets/css/default.css" />
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+		<script type="text/javascript" src="assets/js/general.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-git2.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 	</head>
-<body>
-<div class="menu">
-	<ul>
-		<li>Home</li>
-		<li>Jobs</li>
-		<li>Login</li>
-	</ul>
-</div>
+<body  onscroll="keepMenuFixed();">
+<div class="main-container">
